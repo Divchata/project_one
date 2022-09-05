@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import CompleteWithOptions from "../components/activities/CompleteWithOptions";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         </header>
 
       <main>
-
+          <CompleteWithOptions/>
       </main>
 
     </div>
