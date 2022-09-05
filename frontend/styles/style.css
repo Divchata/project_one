@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;400;500;600;700&display=swap');
+
+:root{
+    --blue: #5e99f6;
+    --black: #333333;
+    --pink: #ff6786;
+    --hight: 100px;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.header {
+    background-color: var(--blue);
+    height: var(--hight);
+    color: white;
+    font-family: "Urbanist";
+    font-size:32px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
