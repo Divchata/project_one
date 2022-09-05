@@ -5,21 +5,23 @@
     --black: #333333;
     --pink: #ff6786;
     --hight: 100px;
-
 }
 
-
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
+}
+
+body {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 24px;
 }
 
 .header {
     background-color: var(--blue);
     height: var(--hight);
     color: white;
-    font-family: "Urbanist";
     font-size:32px;
     font-weight: 300;
     display: flex;
