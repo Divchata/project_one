@@ -25,6 +25,6 @@ export default function CompleteWithOptions() {
     ];
 
     return <ul className="question-list">
-        {questions.map(({text, options}, index) => <li className="question"><Question text={text} options={options} index={index + 1}/></li>)}
+        {questions.map(({text, options}, index) => <li className="question" key={index.toString()}><Question text={text} options={options} index={index + 1}/></li>)}
         </ul>
 }
