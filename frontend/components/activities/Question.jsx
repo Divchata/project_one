@@ -6,9 +6,9 @@ const replaceBlankWithFirstOption = function (text, option) {
     return <><span>{first}</span><span className="inactive">{option}</span><span>{second}</span></>
 }
 
-export default function Question({text, options}) {
+export default function Question({text, options, index}) {
     return <Fragment>
-        <p><span className="question-number">1</span>{replaceBlankWithFirstOption(text, options[0])}</p>
+        <p><span className="question-number">{index}</span>{replaceBlankWithFirstOption(text, options[0])}</p>
         <OptionGroup options={options}/>
     </Fragment>
 }
